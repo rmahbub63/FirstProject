@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9314551aaf0a47a2bc3fd64a37acf249ac113b4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\58845e6edb056e8b9e68e0a5810440219590f5bf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\1a66f5908ea524b52f5ead4398ef4dce611257e8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\b628a0d402e46cb2571e1cd3a892979779e08b5f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\55fd1dc604093053a6e4e4cc4f8ab57458b377a7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\88d44f2bfb6f88911a2251079e1ed71cef44e72b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9d97e85950932f6e8412f6ee36004e38d7e4099\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\727f537218ed88807f871580cad10a2430e245fc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MAHBUB\.android\build-cache\83c009833316816edcb4225ac984a5b4552da1fc\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.mahbub.firstproject.MainActivityLogin
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:12:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.mahbub.firstproject.Registration
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:19:9-50
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:19:19-47
+activity#com.example.mahbub.firstproject.ProfileView
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:20:9-49
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:20:19-46
+activity#com.example.mahbub.firstproject.AllProfileList
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:21:9-52
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:21:19-49
+activity#com.example.mahbub.firstproject.PublicProfileView
+ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:22:9-64
+	android:name
+		ADDED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:22:19-52
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9314551aaf0a47a2bc3fd64a37acf249ac113b4\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\58845e6edb056e8b9e68e0a5810440219590f5bf\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\1a66f5908ea524b52f5ead4398ef4dce611257e8\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\b628a0d402e46cb2571e1cd3a892979779e08b5f\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\55fd1dc604093053a6e4e4cc4f8ab57458b377a7\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\88d44f2bfb6f88911a2251079e1ed71cef44e72b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9d97e85950932f6e8412f6ee36004e38d7e4099\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\727f537218ed88807f871580cad10a2430e245fc\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MAHBUB\.android\build-cache\83c009833316816edcb4225ac984a5b4552da1fc\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9314551aaf0a47a2bc3fd64a37acf249ac113b4\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\58845e6edb056e8b9e68e0a5810440219590f5bf\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\1a66f5908ea524b52f5ead4398ef4dce611257e8\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\b628a0d402e46cb2571e1cd3a892979779e08b5f\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\55fd1dc604093053a6e4e4cc4f8ab57458b377a7\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\88d44f2bfb6f88911a2251079e1ed71cef44e72b\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\d9d97e85950932f6e8412f6ee36004e38d7e4099\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\727f537218ed88807f871580cad10a2430e245fc\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\MAHBUB\.android\build-cache\4544fa9d60137bd4fe63487eb47b616dba5e7183\output\AndroidManifest.xml:26:9-47

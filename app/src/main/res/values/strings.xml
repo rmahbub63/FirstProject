@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="string_underline"><u>No account yet? Create one</u></string>
+</resources>

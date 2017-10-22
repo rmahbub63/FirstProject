@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahbub.firstproject.Registration">
+
+    <ImageView
+        android:id="@+id/imageViewName"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/name_icon"
+        />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewName"
+        android:hint="Enter name here"
+        android:inputType="text"
+        android:layout_alignBottom="@+id/imageViewName"/>
+
+    <ImageView
+        android:id="@+id/imageViewPassword"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/password"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewName"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPassword"
+        android:hint="Enter password here"
+        android:inputType="textPassword"
+        android:layout_alignBottom="@+id/imageViewPassword"/>
+    <ImageView
+        android:id="@+id/imageViewId"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/id"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewPassword"/>
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewId"
+        android:hint="Enter ID here"
+        android:inputType="number"
+        android:layout_alignBottom="@+id/imageViewId"/>
+
+    <ImageView
+        android:id="@+id/imageViewEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/email"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewId"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewEmail"
+        android:hint="Enter email here"
+        android:inputType="textEmailAddress"
+        android:layout_alignBottom="@+id/imageViewEmail"/>
+
+    <ImageView
+        android:id="@+id/imageViewPhone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/phone"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewEmail"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewPhone"
+        android:hint="Enter phone here"
+        android:inputType="phone"
+        android:layout_alignBottom="@+id/imageViewPhone"/>
+    <ImageView
+        android:id="@+id/imageViewGender"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gender"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewPhone"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/imageViewGender"
+        android:layout_alignBottom="@+id/imageViewGender">
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="5dp"/>
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="80dp"/>
+
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/imageViewCgpa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/cgpa"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imageViewGender"/>
+
+    <EditText
+        android:id="@+id/editTextCgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageViewCgpa"
+        android:hint="Enter CGPA here"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:layout_alignBottom="@+id/imageViewCgpa"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:onClick="saveData"
+        android:layout_alignBottom="@+id/buttonClear"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginEnd="10dp"/>
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_toRightOf="@+id/buttonSave"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imageViewCgpa" />
+
+</RelativeLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#e6ffff"
+    tools:context="com.example.mahbub.firstproject.ProfileView">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNameProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahbubur Rahman"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            style="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="serif-monospace"
+            android:background="#004d4d"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/innerRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutName"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageViewPassword"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/password"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="#004d4d"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/imageViewId"
+            android:layout_toRightOf="@+id/imageViewPassword"
+            android:layout_toEndOf="@+id/imageViewPassword"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+
+        <ImageView
+            android:id="@+id/imageViewId"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/id"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageViewPassword"/>
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textColor="#004d4d"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/imageViewEmail"
+            android:layout_toRightOf="@+id/imageViewId"
+            android:layout_toEndOf="@+id/imageViewId"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewEmail"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/email"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageViewId"/>
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#004d4d"
+            android:text="Email"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/imageViewPhone"
+            android:layout_toRightOf="@+id/imageViewEmail"
+            android:layout_toEndOf="@+id/imageViewEmail"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewPhone"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageViewEmail"/>
+
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="#004d4d"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/imageViewGender"
+            android:layout_toRightOf="@+id/imageViewPhone"
+            android:layout_toEndOf="@+id/imageViewPhone"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewGender"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/gender"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageViewPhone"/>
+
+        <TextView
+            android:id="@+id/textViewGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#004d4d"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/imageViewCgpa"
+            android:layout_toRightOf="@+id/imageViewGender"
+            android:layout_toEndOf="@+id/imageViewGender"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"/>
+
+        <ImageView
+            android:id="@+id/imageViewCgpa"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cgpa"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageViewGender"/>
+
+        <TextView
+            android:id="@+id/textViewCgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGPA"
+            android:textColor="#004d4d"
+            style="@android:style/TextAppearance.Medium"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/imageViewGender"
+            android:layout_toRightOf="@+id/imageViewCgpa"
+            android:layout_toEndOf="@+id/imageViewCgpa"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/innerRelativeLayout"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Edit"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            style="@android:style/TextAppearance.Medium"
+            android:background="#008080"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Exit"
+            android:onClick="exitClickAction"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            style="@android:style/TextAppearance.Medium"
+            android:background="#008080"
+            android:layout_marginRight="10dp"/>
+        <Button
+            android:id="@+id/buttonViewOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="View Others"
+            android:onClick="viewOthersClickAction"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            style="@android:style/TextAppearance.Medium"
+            android:background="#008080"/>
+    </LinearLayout>
+
+</RelativeLayout>
